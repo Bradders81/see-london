@@ -6,9 +6,12 @@
 	border: 0;
 }
 
+body {
+    font-family: 'Merriweather', sans-serif;
+    letter-spacing: 2px;
+}
 
 #brand-style {
-
     font-family: 'Akaya Telivigala', cursive;
     font-size: 40px;
     text-align: center;
@@ -16,7 +19,11 @@
 }
 
 #home-bg-image {
-    background: url();
+    background: url(../imges/london-skyline.jpg) center center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 90vh;
 
 }
 
