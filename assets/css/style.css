@@ -27,3 +27,23 @@ body {
 
 }
 
+#callOutText {
+color: #fff;
+border-radius: 10px;
+background: #1C39F5;
+
+padding: 20px;
+border: #1C39F5 2px solid;
+margin: auto;
+max-width: 50%;
+position: relative;
+
+}
+
+#slideCTA {
+    margin-top: 10%;
+    position: relative;
+}
+
+
+
