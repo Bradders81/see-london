@@ -2,10 +2,10 @@
 
 
 
-$(document).ready(function() {
+$(function() {
 
 
-     $("#callOutText").hide(2000).show(200);
+     $("#slideCTA").hide(2000).show(2000);
     
 
 });
