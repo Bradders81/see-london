@@ -33,28 +33,54 @@
     </nav>
     <!--- End of Credit --->
 
-    <section class="container-fluid no gutters">
-        <div class="row no-gutter">
-            <div class="col-12 no-gutters">
-                <div id="home-bg-image" class="no-gutter">
-                    <div id="slideCTA">
-                        <h3 id="callOutText" class=" center">Come and see what London has to offer</h3>
-                        <button> Take a Look</button>
+    <section class="container-fluid">
+        <div class="row no-gutters">
+            <div class="col-12">
+                <div id="home-bg-image">
+
+                    <h3 id="callOutText" class="slideCTA ">Come and see what London has to offer</h3>
+                    <div class="button">
+                        <a class="btn-danger btnClass center" href="">Take a Look</a>
                     </div>
                 </div>
 
             </div>
+
+
         </div>
 
     </section>
+  
+    <section class="container-fluid">
+        <div class="row border no-gutters">
+            <div class=" col-sm-12 col-md-6">
+                <div>Menu options </div>
+                <div></div>
+            </div>
+            <div class="col-sm12 col-md-6">
+                <div id="map"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer></footer>
 
 
-    
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
     <script src="assets/js/script.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_8oyNo1Yz8bItNPcoRNZLkIZ49Vaw3hQ&callback=initMap"></script>
+    <script src="assets/js/map.js"></script>
+
+
 </body>
 
 </html>

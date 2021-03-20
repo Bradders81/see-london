@@ -1,14 +1,25 @@
 
 
-
+     $('#callOutText').hide()
+    
 
 $(function() {
 
-
-     $("#slideCTA").hide(2000).show(2000);
+     $('#callOutText').show(2000);
     
 
 });
+
+
+
+
+ 
+
+    
+
+
+
+
 
 
 
