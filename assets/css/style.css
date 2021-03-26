@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Merriweather&display=swap');
 
-
 /*----------- Global Styles -----------*/
 * {
 	margin: 0;
@@ -16,8 +15,6 @@ body {
 }
 
 /*---------- Landing Section ----------*/
-
-
 #brand-style {
     font-family: 'Akaya Telivigala', cursive;
     font-size: 40px;
@@ -61,7 +58,6 @@ border-radius: 25px;
 }
 
 /*---------- About Section ----------*/
-
 .about-bg {
     background-color: #dc3545;
 }
@@ -72,8 +68,6 @@ border-radius: 25px;
     text-align: center;
     
 }
-
-
 .button {
 	display: flex;
 	align-items: center;
@@ -103,15 +97,10 @@ width: 100%;
     margin: auto;
 }
 
-/* .menu-btn {
-
-} */
 
 .drop-downs {
     display: inline-block;
   
- 
-   
 }
 
 ul li {
@@ -138,4 +127,12 @@ box-shadow: 2px 2px #fff;
 #menu1, 
 #menu2 {
 display: none;
+}
+
+.info {
+    display: none;
+}
+
+#phd {
+    display: none;
 }
