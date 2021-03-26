@@ -7,7 +7,11 @@ document.addEventListener('DOMContentLoaded', () => {
     let londonEye = document.getElementById("lEye");
     let towerLondon = document.getElementById("tLondon");
     let housesParliament = document.getElementById("hParliament");
-    
+    let apollo = document.getElementById("apollo");
+    let palladium = document.getElementById("palladium");
+    let adelphi = document.getElementById("adelphi");
+    let majestys = document.getElementById("majestys")
+
 
 
     let setNone = document.querySelectorAll('info');
@@ -37,6 +41,30 @@ document.addEventListener('DOMContentLoaded', () => {
                 infoSection.removeChild(infoSection.firstElementChild)
                 housesParliament.style.display = "block";
                 infoSection.appendChild(housesParliament);
+
+            } else if (this.getAttribute("data-id") === "apollo") {
+                infoSection.removeChild(infoSection.firstElementChild)
+                apollo.style.display = "block";
+                infoSection.appendChild(apollo);
+
+            } else if (this.getAttribute("data-id") === "palladium") {
+                infoSection.removeChild(infoSection.firstElementChild)
+                palladium.style.display = "block";
+                infoSection.appendChild(palladium);
+
+            } else if (this.getAttribute("data-id") === "adelphi") {
+                infoSection.removeChild(infoSection.firstElementChild)
+                adelphi.style.display = "block";
+                infoSection.appendChild(adelphi);
+
+            } else if (this.getAttribute("data-id") === "majestys") {
+                infoSection.removeChild(infoSection.firstElementChild)
+                majestys.style.display = "block";
+                infoSection.appendChild(majestys);
+
+
+
+
 
 
 
